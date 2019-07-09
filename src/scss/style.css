@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    background-color: #4bbf6b;
+    font-family: Arial
+}
+
+.pageBackground {
+  background-color: #4bbf6b; 
+  min-height: 900px !important
+}
+
+.MuiPaper-root {
+    background-color: rgba(0,0,0,.15) !important;
+    box-shadow: none !important
+}
+
+.headerLogo {
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: 80px 30px;
+    cursor: pointer;
+    display: inline-block;
+    height: 30px;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.topNavContainer {
+    height: 32px;
+    position: relative;
+    padding: 4px;
+    overflow: hidden
+}
+
+.MuiButton-root {
+    background-color: hsla(0,0%,100%,.3) !important;
+    border-radius: 3px !important;
+    height: 32px !important;
+    margin-right: 5px !important;
+    min-width: 32px !important
+}
+
+.navIcons {
+    font-size: 22px !important;
+    color: #ffffff !important;
+}
+
+.navFont {
+    color: #ffffff;
+    text-transform: none !important;
+    font-weight: bolder !important;
+}
+
+.listName {
+    clear: both !important;
+    display: block !important;
+    margin: 0 0 4px !important;
+    overflow: hidden !important;
+    text-decoration: none !important;
+    word-wrap: break-word !important;
+    color: #172b4d !important;
+    font-size: 14px !important;
+}
+
+.headerListName {
+    clear: both !important;
+    display: block !important;
+    margin: 0 0 4px !important;
+    overflow: hidden !important;
+    text-decoration: none !important;
+    word-wrap: break-word !important;
+    color: #172b4d !important;
+    font-weight: bolder !important;
+    font-size: 14px !important;
+}
+
+.headerListContainer {
+    padding: 5px !important;
+}
+
+
+[data-react-beautiful-dnd-droppable="0"] {
+    height: 650px !important;
+    overflow-y: hidden !important;
+    overflow: hidden !important
+}
+
+.columnContainer {
+    height: auto !important;
+    max-height: 680px !important;
+    overflow-y: auto;
+}
+
+.cardHeaderTitle {
+    font-weight: bolder !important
+}
+
+.addCardTexfield {
+    width: 100%
+}
